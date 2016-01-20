@@ -106,6 +106,13 @@
 		043DC9601C48EA4000AFC4E0 /* PKSecondLandView.m in Sources */ = {isa = PBXBuildFile; fileRef = 043DC95F1C48EA4000AFC4E0 /* PKSecondLandView.m */; };
 		043DC9631C49253300AFC4E0 /* PKTopLandingView.m in Sources */ = {isa = PBXBuildFile; fileRef = 043DC9621C49253300AFC4E0 /* PKTopLandingView.m */; };
 		043DC9681C49334300AFC4E0 /* PKregisterViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 043DC9671C49334300AFC4E0 /* PKregisterViewController.m */; };
+		043DC96C1C4C82B500AFC4E0 /* PKLoginView.m in Sources */ = {isa = PBXBuildFile; fileRef = 043DC96B1C4C82B500AFC4E0 /* PKLoginView.m */; };
+		043DC99E1C4E2DC200AFC4E0 /* PKFragmentViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 043DC99D1C4E2DC200AFC4E0 /* PKFragmentViewController.m */; };
+		043DC9A11C4E2DEF00AFC4E0 /* PKCommunityViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 043DC9A01C4E2DEF00AFC4E0 /* PKCommunityViewController.m */; };
+		043DC9A41C4E2E1800AFC4E0 /* PKReadViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 043DC9A31C4E2E1800AFC4E0 /* PKReadViewController.m */; };
+		043DC9A71C4E2E4000AFC4E0 /* PKRadioViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 043DC9A61C4E2E4000AFC4E0 /* PKRadioViewController.m */; };
+		043DC9AA1C4E2E6C00AFC4E0 /* PKGoodProductsViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 043DC9A91C4E2E6C00AFC4E0 /* PKGoodProductsViewController.m */; };
+		043DC9AD1C4E2E9300AFC4E0 /* PKSettingViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 043DC9AC1C4E2E9300AFC4E0 /* PKSettingViewController.m */; };
 		0470D2581C47A3F0002240A0 /* PKLeftTableCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 0470D2571C47A3F0002240A0 /* PKLeftTableCell.m */; };
 		0470D25B1C47A43B002240A0 /* PKLeftTableView.m in Sources */ = {isa = PBXBuildFile; fileRef = 0470D25A1C47A43B002240A0 /* PKLeftTableView.m */; };
 /* End PBXBuildFile section */
@@ -335,6 +342,20 @@
 		043DC9621C49253300AFC4E0 /* PKTopLandingView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = PKTopLandingView.m; path = "登陆/View/PKTopLandingView.m"; sourceTree = "<group>"; };
 		043DC9661C49334300AFC4E0 /* PKregisterViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = PKregisterViewController.h; path = "注册/PKregisterViewController.h"; sourceTree = "<group>"; };
 		043DC9671C49334300AFC4E0 /* PKregisterViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = PKregisterViewController.m; path = "注册/PKregisterViewController.m"; sourceTree = "<group>"; };
+		043DC96A1C4C82B500AFC4E0 /* PKLoginView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = PKLoginView.h; path = "注册/View/PKLoginView.h"; sourceTree = "<group>"; };
+		043DC96B1C4C82B500AFC4E0 /* PKLoginView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = PKLoginView.m; path = "注册/View/PKLoginView.m"; sourceTree = "<group>"; };
+		043DC99C1C4E2DC200AFC4E0 /* PKFragmentViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = PKFragmentViewController.h; path = "碎片/PKFragmentViewController.h"; sourceTree = "<group>"; };
+		043DC99D1C4E2DC200AFC4E0 /* PKFragmentViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = PKFragmentViewController.m; path = "碎片/PKFragmentViewController.m"; sourceTree = "<group>"; };
+		043DC99F1C4E2DEF00AFC4E0 /* PKCommunityViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = PKCommunityViewController.h; path = "社区/PKCommunityViewController.h"; sourceTree = "<group>"; };
+		043DC9A01C4E2DEF00AFC4E0 /* PKCommunityViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = PKCommunityViewController.m; path = "社区/PKCommunityViewController.m"; sourceTree = "<group>"; };
+		043DC9A21C4E2E1800AFC4E0 /* PKReadViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = PKReadViewController.h; path = "阅读/PKReadViewController.h"; sourceTree = "<group>"; };
+		043DC9A31C4E2E1800AFC4E0 /* PKReadViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = PKReadViewController.m; path = "阅读/PKReadViewController.m"; sourceTree = "<group>"; };
+		043DC9A51C4E2E4000AFC4E0 /* PKRadioViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = PKRadioViewController.h; path = "电台/PKRadioViewController.h"; sourceTree = "<group>"; };
+		043DC9A61C4E2E4000AFC4E0 /* PKRadioViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = PKRadioViewController.m; path = "电台/PKRadioViewController.m"; sourceTree = "<group>"; };
+		043DC9A81C4E2E6C00AFC4E0 /* PKGoodProductsViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = PKGoodProductsViewController.h; path = "良品/PKGoodProductsViewController.h"; sourceTree = "<group>"; };
+		043DC9A91C4E2E6C00AFC4E0 /* PKGoodProductsViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = PKGoodProductsViewController.m; path = "良品/PKGoodProductsViewController.m"; sourceTree = "<group>"; };
+		043DC9AB1C4E2E9300AFC4E0 /* PKSettingViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = PKSettingViewController.h; path = "设置/PKSettingViewController.h"; sourceTree = "<group>"; };
+		043DC9AC1C4E2E9300AFC4E0 /* PKSettingViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = PKSettingViewController.m; path = "设置/PKSettingViewController.m"; sourceTree = "<group>"; };
 		0470D2561C47A3F0002240A0 /* PKLeftTableCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = PKLeftTableCell.h; path = "左侧菜单/View/PKLeftTableCell.h"; sourceTree = "<group>"; };
 		0470D2571C47A3F0002240A0 /* PKLeftTableCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = PKLeftTableCell.m; path = "左侧菜单/View/PKLeftTableCell.m"; sourceTree = "<group>"; };
 		0470D2591C47A43B002240A0 /* PKLeftTableView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = PKLeftTableView.h; path = "左侧菜单/View/PKLeftTableView.h"; sourceTree = "<group>"; };
@@ -392,6 +413,12 @@
 				042E79FB1C47479800FAD9DE /* PrefixHeader.pch */,
 				042E76771C472D8500FAD9DE /* AppDelegate.h */,
 				042E76781C472D8500FAD9DE /* AppDelegate.m */,
+				043DC99B1C4E2D6400AFC4E0 /* 碎片 */,
+				043DC99A1C4E2D3E00AFC4E0 /* 社区 */,
+				043DC9991C4E2D3200AFC4E0 /* 阅读 */,
+				043DC9971C4E2D2900AFC4E0 /* 电台 */,
+				043DC9961C4E2CFD00AFC4E0 /* 良品 */,
+				043DC9941C4E2CD100AFC4E0 /* 设置 */,
 				042E7A0A1C4776DA00FAD9DE /* 首页 */,
 				042E7A041C47752500FAD9DE /* 左侧菜单 */,
 				043DC9651C4932DC00AFC4E0 /* 注册 */,
@@ -795,8 +822,72 @@
 			children = (
 				043DC9661C49334300AFC4E0 /* PKregisterViewController.h */,
 				043DC9671C49334300AFC4E0 /* PKregisterViewController.m */,
+				043DC9691C4C821000AFC4E0 /* View */,
 			);
 			name = "注册";
+			sourceTree = "<group>";
+		};
+		043DC9691C4C821000AFC4E0 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				043DC96A1C4C82B500AFC4E0 /* PKLoginView.h */,
+				043DC96B1C4C82B500AFC4E0 /* PKLoginView.m */,
+			);
+			name = View;
+			sourceTree = "<group>";
+		};
+		043DC9941C4E2CD100AFC4E0 /* 设置 */ = {
+			isa = PBXGroup;
+			children = (
+				043DC9AB1C4E2E9300AFC4E0 /* PKSettingViewController.h */,
+				043DC9AC1C4E2E9300AFC4E0 /* PKSettingViewController.m */,
+			);
+			name = "设置";
+			sourceTree = "<group>";
+		};
+		043DC9961C4E2CFD00AFC4E0 /* 良品 */ = {
+			isa = PBXGroup;
+			children = (
+				043DC9A81C4E2E6C00AFC4E0 /* PKGoodProductsViewController.h */,
+				043DC9A91C4E2E6C00AFC4E0 /* PKGoodProductsViewController.m */,
+			);
+			name = "良品";
+			sourceTree = "<group>";
+		};
+		043DC9971C4E2D2900AFC4E0 /* 电台 */ = {
+			isa = PBXGroup;
+			children = (
+				043DC9A51C4E2E4000AFC4E0 /* PKRadioViewController.h */,
+				043DC9A61C4E2E4000AFC4E0 /* PKRadioViewController.m */,
+			);
+			name = "电台";
+			sourceTree = "<group>";
+		};
+		043DC9991C4E2D3200AFC4E0 /* 阅读 */ = {
+			isa = PBXGroup;
+			children = (
+				043DC9A21C4E2E1800AFC4E0 /* PKReadViewController.h */,
+				043DC9A31C4E2E1800AFC4E0 /* PKReadViewController.m */,
+			);
+			name = "阅读";
+			sourceTree = "<group>";
+		};
+		043DC99A1C4E2D3E00AFC4E0 /* 社区 */ = {
+			isa = PBXGroup;
+			children = (
+				043DC99F1C4E2DEF00AFC4E0 /* PKCommunityViewController.h */,
+				043DC9A01C4E2DEF00AFC4E0 /* PKCommunityViewController.m */,
+			);
+			name = "社区";
+			sourceTree = "<group>";
+		};
+		043DC99B1C4E2D6400AFC4E0 /* 碎片 */ = {
+			isa = PBXGroup;
+			children = (
+				043DC99C1C4E2DC200AFC4E0 /* PKFragmentViewController.h */,
+				043DC99D1C4E2DC200AFC4E0 /* PKFragmentViewController.m */,
+			);
+			name = "碎片";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -935,6 +1026,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				043DC9601C48EA4000AFC4E0 /* PKSecondLandView.m in Sources */,
+				043DC99E1C4E2DC200AFC4E0 /* PKFragmentViewController.m in Sources */,
 				042E79DB1C47453100FAD9DE /* MJRefreshStateHeader.m in Sources */,
 				042E79F61C47453100FAD9DE /* UIImage+WebP.m in Sources */,
 				042E79DA1C47453100FAD9DE /* MJRefreshNormalHeader.m in Sources */,
@@ -944,6 +1036,7 @@
 				042E79DC1C47453100FAD9DE /* MJChiBaoZiFooter.m in Sources */,
 				042E79CB1C47453100FAD9DE /* NSArray+MASAdditions.m in Sources */,
 				042E79D61C47453100FAD9DE /* MJRefreshBackGifFooter.m in Sources */,
+				043DC9AA1C4E2E6C00AFC4E0 /* PKGoodProductsViewController.m in Sources */,
 				042E79F21C47453100FAD9DE /* SDWebImagePrefetcher.m in Sources */,
 				042E79CD1C47453100FAD9DE /* View+MASAdditions.m in Sources */,
 				042E79C01C47453100FAD9DE /* UIButton+AFNetworking.m in Sources */,
@@ -957,12 +1050,14 @@
 				0470D25B1C47A43B002240A0 /* PKLeftTableView.m in Sources */,
 				043DC9581C48D08800AFC4E0 /* PKLandingViewController.m in Sources */,
 				042E79C41C47453100FAD9DE /* UIWebView+AFNetworking.m in Sources */,
+				043DC96C1C4C82B500AFC4E0 /* PKLoginView.m in Sources */,
 				042E79F81C47453100FAD9DE /* UIImageView+WebCache.m in Sources */,
 				042E79C21C47453100FAD9DE /* UIProgressView+AFNetworking.m in Sources */,
 				042E79B61C47453100FAD9DE /* AFHTTPSessionManager.m in Sources */,
 				042E7A141C477E2800FAD9DE /* PKLeftHeadView.m in Sources */,
 				042E7A0D1C47771200FAD9DE /* PKHomeViewController.m in Sources */,
 				042E79EA1C47453100FAD9DE /* MKAnnotationView+WebCache.m in Sources */,
+				043DC9A71C4E2E4000AFC4E0 /* PKRadioViewController.m in Sources */,
 				042E77FC1C47428700FAD9DE /* UIColor+Extension.m in Sources */,
 				043DC9681C49334300AFC4E0 /* PKregisterViewController.m in Sources */,
 				042E79F01C47453100FAD9DE /* SDWebImageDownloaderOperation.m in Sources */,
@@ -973,10 +1068,12 @@
 				042E79B41C47453100FAD9DE /* AFHTTPRequestOperation.m in Sources */,
 				042E79D11C47453100FAD9DE /* MJRefreshFooter.m in Sources */,
 				042E79BA1C47453100FAD9DE /* AFURLRequestSerialization.m in Sources */,
+				043DC9A11C4E2DEF00AFC4E0 /* PKCommunityViewController.m in Sources */,
 				042E79B91C47453100FAD9DE /* AFURLConnectionOperation.m in Sources */,
 				042E79BC1C47453100FAD9DE /* AFURLSessionManager.m in Sources */,
 				042E79F51C47453100FAD9DE /* UIImage+MultiFormat.m in Sources */,
 				042E78001C47428700FAD9DE /* UIView+Toast.m in Sources */,
+				043DC9AD1C4E2E9300AFC4E0 /* PKSettingViewController.m in Sources */,
 				042E77FE1C47428700FAD9DE /* UIImageView+SDWedImage.m in Sources */,
 				042E79C91C47453100FAD9DE /* MASViewAttribute.m in Sources */,
 				042E79C81C47453100FAD9DE /* MASLayoutConstraint.m in Sources */,
@@ -1005,6 +1102,7 @@
 				042E79D31C47453100FAD9DE /* MJRefreshAutoGifFooter.m in Sources */,
 				042E77E01C47366200FAD9DE /* PKBaseViewController.m in Sources */,
 				042E79DD1C47453100FAD9DE /* MJChiBaoZiFooter2.m in Sources */,
+				043DC9A41C4E2E1800AFC4E0 /* PKReadViewController.m in Sources */,
 				042E77F81C47428700FAD9DE /* GCDCountdownTime.m in Sources */,
 				042E77FA1C47428700FAD9DE /* NSString+Helper.m in Sources */,
 				042E79F31C47453100FAD9DE /* UIButton+WebCache.m in Sources */,

@@ -41,7 +41,7 @@
     [_registerBtn mas_makeConstraints:^(MASConstraintMaker *make) {
         make.size.equalTo(CGSizeMake(40, 20));
         make.top.equalTo(weakSelf.mas_top).offset(30);
-        make.right.equalTo(weakSelf.mas_right).offset(-15);
+        make.right.equalTo(weakSelf.mas_right).offset(-20);
     }];
     //总高度420
 }

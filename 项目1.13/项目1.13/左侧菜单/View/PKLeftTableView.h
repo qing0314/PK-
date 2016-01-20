@@ -8,6 +8,12 @@
 
 #import <UIKit/UIKit.h>
 
+@protocol PKLeftTableViewSelectRowdelegate <NSObject>
+
+- (void)selectWhichRow:(NSInteger)row;
+
+@end
 @interface PKLeftTableView : UITableView
 
+@property (weak, nonatomic) id<PKLeftTableViewSelectRowdelegate>Rowdelegate;
 @end

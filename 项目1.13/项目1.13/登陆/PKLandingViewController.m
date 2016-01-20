@@ -7,12 +7,13 @@
 //
 
 #import "PKLandingViewController.h"
-#import "PKregisterViewController.h"
-#import "PKTopLandingView.h"
+#import "PKregisterViewController.h"  //注册界面
+
+#import "PKTopLandingView.h"      //顶部登录view
 #import "PKSecondLandView.h"     //Email正常登录view
 #import "PKThirdLandingView.h"  //第三方登录View
 #import "Masonry.h"
-@interface PKLandingViewController ()
+@interface PKLandingViewController ()<UITextFieldDelegate>
 
 @property (strong, nonatomic) PKSecondLandView *secondView;
 @property (strong, nonatomic) PKThirdLandingView *thirdView;
@@ -51,16 +52,12 @@
         make.height.equalTo(175);
     }];
 }
-
-- (void)didReceiveMemoryWarning {
-    [super didReceiveMemoryWarning];
-    // Dispose of any resources that can be recreated.
-}
-
 - (PKSecondLandView *)secondView
 {
     if (!_secondView) {
         _secondView = [[PKSecondLandView alloc]initWithFrame:CGRectMake(0, 0, 0, 0)];
+        _secondView.EmailText.delegate = self;
+        _secondView.PassWordText.delegate = self;
     }
     return _secondView;
 }
@@ -91,5 +88,56 @@
 {
     PKregisterViewController *registerViewController = [[PKregisterViewController alloc]init];
     [self presentViewController:registerViewController animated:YES completion:nil];
+}
+
+
+#pragma mark 键盘弹出弹回
+- (BOOL)textFieldShouldBeginEditing:(UITextField *)textField
+{
+    WS(weakSelf)
+    if (textField == self.secondView.EmailText) {
+        [UIView animateWithDuration:0.3 animations:^{
+            CGRect rect = weakSelf.view.bounds;
+            rect.origin.y = 50.0;
+            weakSelf.view.bounds = rect;
+        }];
+    }
+    else{
+        [UIView animateWithDuration:0.3 animations:^{
+            CGRect rect = weakSelf.view.bounds;
+            rect.origin.y = 100.0;
+            weakSelf.view.bounds = rect;
+        }];
+
+    }
+    return YES;
+}
+
+- (BOOL)textFieldShouldReturn:(UITextField *)textField
+{
+    [_secondView.EmailText resignFirstResponder];
+    [_secondView.PassWordText resignFirstResponder];
+    WS(weakSelf);
+    [UIView animateWithDuration:0.3 animations:^{
+        CGRect rect = weakSelf.view.bounds;
+        rect.origin.y = 0;
+        weakSelf.view.bounds = rect;
+    }];
+    
+    return YES;
+
+}
+- (void)touchesBegan:(NSSet<UITouch *> *)touches withEvent:(UIEvent *)event
+{
+    [_secondView.EmailText resignFirstResponder];
+    [_secondView.PassWordText resignFirstResponder];
+    WS(weakSelf);
+    [UIView animateWithDuration:0.3 animations:^{
+        CGRect rect = weakSelf.view.bounds;
+        rect.origin.y = 0;
+        weakSelf.view.bounds = rect;
+    }];
+    
+
 }
 @end
